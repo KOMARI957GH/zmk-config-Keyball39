@@ -91,17 +91,17 @@ layers:
   - '*'
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&Hiragana'
+  - Alt+~
+  - Ctl+$$mdi:apple-keyboard-shift$$
+  - INT HENKAN
+  - INT MUHENKAN
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LANG ZENKAKUHANKAKU
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
