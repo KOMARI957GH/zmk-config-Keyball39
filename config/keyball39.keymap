@@ -107,8 +107,8 @@
         windows_layer {
             label = "win";
             bindings = <
-&kp Q             &kp W         &kp E         &kp R   &kp T                         &kp Y   &kp U   &kp I   &kp O   &trans
-&kp A             &kp S         &kp D         &kp F   &trans                        &trans  &trans  &trans  &trans  &trans
+&trans            &trans        &trans        &trans  &trans                        &trans  &trans  &trans  &trans  &trans
+&trans            &trans        &trans        &trans  &trans                        &trans  &trans  &trans  &trans  &trans
 &trans            &trans        &trans        &trans  &trans                        &trans  &trans  &trans  &trans  &trans
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &trans  &trans  &kp CAPSLOCK  &trans  &trans                          &trans
             >;
