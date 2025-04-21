@@ -161,7 +161,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
-  - '&pas_macro'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -171,7 +171,7 @@ layers:
   - '&mkp MB5'
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
-  - '&Apple_macro'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -181,7 +181,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&jimno_macro'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -191,7 +191,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&jimpas_macro'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -199,7 +199,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLL
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&pas_macro'
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
