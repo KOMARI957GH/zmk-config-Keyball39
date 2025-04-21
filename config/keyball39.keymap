@@ -13,10 +13,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -66,7 +67,7 @@
         pas_macro: pas_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N0 &kp N2 &kp N1 &kp N1 &kp N7 &kp N5 &kp N9 &kp N0>;
+            bindings = <&kp N0 &kp N2 &kp N1 &kp N1 &kp N7 &kp N5 &kp N9 &kp N0 &kp ENTER>;
             label = "PAS_MACRO";
         };
 
@@ -138,10 +139,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&pas_macro     &kp N7  &kp N8  &kp N9  &kp TAB                              &none           &mkp MB4        &mkp MB5         &mkp LCLK  &trans
-&Apple_macro   &kp N4  &kp N5  &kp N6  &kp LC(RIGHT_ARROW)                  &none           &kp UP_ARROW    &mkp RCLK        &mkp MB5   &trans
-&jimno_macro   &kp N1  &kp N2  &kp N3  &kp RC(LEFT_ARROW)                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none
-&jimpas_macro  &kp N0  &trans  &trans  &trans               &trans  &trans  &mo 5                                                       &none
+&none  &kp N7  &kp N8  &kp N9  &kp TAB                              &none           &mkp MB4        &mkp MB5         &mkp LCLK  &trans
+&none  &kp N4  &kp N5  &kp N6  &kp LC(RIGHT_ARROW)                  &none           &kp UP_ARROW    &mkp RCLK        &mkp MB5   &trans
+&none  &kp N1  &kp N2  &kp N3  &kp RC(LEFT_ARROW)                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none
+&none  &kp N0  &trans  &trans  &trans               &trans  &trans  &mo 5                                                       &pas_macro
             >;
         };
 
