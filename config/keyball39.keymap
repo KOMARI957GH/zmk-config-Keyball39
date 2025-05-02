@@ -8,10 +8,11 @@
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -134,7 +135,7 @@
             label = "MOUSE";
             bindings = <
 &kp Q   &kp W   &kp E   &kp R   &kp T                   &kp Y  &kp U  &kp I      &mkp LCLK  &mkp RCLK
-&kp A   &kp S   &kp D   &kp F   &kp G                   &kp H  &kp K  &kp L      &mkp MB4   &mkp MB5
+&kp A   &kp S   &kp D   &kp F   &kp G                   &kp H  &kp K  &kp L      &mkp MB4   &lt 5 TAB
 &kp Z   &kp X   &kp C   &kp V   &kp B                   &kp N  &kp M  &kp COMMA  &kp DOT    &kp FSLH
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 5                               &pas_macro
             >;
