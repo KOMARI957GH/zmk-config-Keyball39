@@ -180,7 +180,7 @@ layers:
   - K
   - L
   - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - Z
   - X
   - C
