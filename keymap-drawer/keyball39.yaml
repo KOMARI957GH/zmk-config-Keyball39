@@ -177,9 +177,9 @@ layers:
   - F
   - G
   - H
+  - J
   - K
   - L
-  - '&mkp MB4'
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - Z
   - X
@@ -280,3 +280,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [30, 31]
+  k: $$mdi:apple-keyboard-shift$$
